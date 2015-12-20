@@ -35,16 +35,10 @@ OOCD_BOARD	?= st_nucleo_f4
 ################################################################################
 # Black Magic Probe specific variables
 # Set the BMP_PORT to a serial port and then BMP is used for flashing
-BMP_PORT	?=
-STLINK_PORT ?=
-#/dev/ttyACM0
+# BMP_PORT	?=
 
 ################################################################################
 # texane/stlink specific variables
-#STLINK_PORT	?= :4242
-
+# STLINK_PORT	?= :4242
 
 include Makefile.rules
-
-
-
